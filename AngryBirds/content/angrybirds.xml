@@ -1,0 +1,521 @@
+<angrybirds>
+
+  <birds src="content\Textures\SR_Regular_Birds-1.png" imageWidth="1017" imageHeight="1024">
+
+    <bird type="BIRD_RED">
+      <physics density="4" restitution="0.5" friction="1" health="100"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="183" xPosRight="227" yPosTop="464" yPosBottom="508"></sprite>
+        <sprite state="FLYING" xPosLeft="230" xPosRight="279" yPosTop="460" yPosBottom="502"></sprite>
+        <sprite state="DAMAGED" xPosLeft="183" xPosRight="229" yPosTop="509" yPosBottom="553"></sprite>
+      </sprites>
+    </bird>
+
+    <bird type="BIRD_YELLOW">
+      <physics density="20" restitution="0.5" friction="1" health="100"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="183" xPosRight="243" yPosTop="250" yPosBottom="306"></sprite>
+        <sprite state="FLYING" xPosLeft="239" xPosRight="299" yPosTop="504" yPosBottom="555"></sprite>
+        <sprite state="SPEEDUP" xPosLeft="409" xPosRight="466" yPosTop="536" yPosBottom="588"></sprite>
+        <sprite state="DAMAGED" xPosLeft="407" xPosRight="467" yPosTop="338" yPosBottom="393"></sprite>
+
+      </sprites>
+    </bird>
+
+    <bird type="BIRD_BLUE">
+      <physics density="4" restitution="0.5" friction="1" health="100"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="5" xPosRight="38" yPosTop="315" yPosBottom="348"></sprite>
+        <sprite state="FLYING" xPosLeft="38" xPosRight="71" yPosTop="315" yPosBottom="348"></sprite>
+        <sprite state="DAMAGED" xPosLeft="38" xPosRight="71" yPosTop="348" yPosBottom="381"></sprite>
+      </sprites>
+    </bird>
+
+    <bird type="BIRD_BOMB">
+      <physics density="10" restitution="0.5" friction="1" health="100"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="407" xPosRight="468" yPosTop="89" yPosBottom="170"></sprite>
+        <sprite state="FLYING" xPosLeft="670" xPosRight="730" yPosTop="862" yPosBottom="933"></sprite>
+        <sprite state="EXPLOSION1" xPosLeft="9" xPosRight="70" yPosTop="233" yPosBottom="312"></sprite>
+        <sprite state="EXPLOSION2" xPosLeft="407" xPosRight="466" yPosTop="171" yPosBottom="251"></sprite>
+        <sprite state="EXPLOSION3" xPosLeft="407" xPosRight="467" yPosTop="253" yPosBottom="333"></sprite>
+        <sprite state="EXPLOSION4" xPosLeft="340" xPosRight="400" yPosTop="250" yPosBottom="330"></sprite>
+      </sprites>
+    </bird>
+
+    <bird type="BIRD_FAT">
+      <physics density="100" restitution="0.5" friction="1" health="100"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="878" xPosRight="972" yPosTop="645" yPosBottom="745"></sprite>
+        <sprite state="FLYING" xPosLeft="915" xPosRight="1015" yPosTop="845" yPosBottom="945"></sprite>
+        <sprite state="DAMAGED" xPosLeft="917" xPosRight="1017" yPosTop="750" yPosBottom="850"></sprite>
+      </sprites>
+    </bird>
+  </birds>
+
+  <catapult>
+    <right uLeft="383" uRight="421" vTop="610" vBottom="808" screenX="240" screenY="155" wid="38" ht="198"></right>
+    <left uLeft="335" uRight="378" vTop="707" vBottom="830" screenX="211" screenY="240" wid="43" ht="123"></left>
+    <slingshot uLeft="356" uRight="456" vTop="951" vBottom="971"></slingshot>
+  </catapult>
+
+  <pigs src="content\Textures\pig_sheet.png" imageWidth="1024" imageHeight="736">
+
+    <pig type="PIG_KING">
+      <physics density="10" restitution="0.5" friction="0.2" health="500"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="412" xPosRight="542" yPosTop="0" yPosBottom="146"></sprite>
+        <sprite state="DAMAGE1" xPosLeft="273" xPosRight="403" yPosTop="0" yPosBottom="146"></sprite>
+        <sprite state="DAMAGE2" xPosLeft="5" xPosRight="135" yPosTop="0" yPosBottom="146"></sprite>
+      </sprites>
+    </pig>
+
+    <pig type="PIG_NORMAL">
+      <physics density="4" restitution="0.5" friction="0.2" health="150"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="670" xPosRight="770" yPosTop="265" yPosBottom="365"></sprite>
+        <sprite state="DAMAGE1" xPosLeft="363" xPosRight="463" yPosTop="265" yPosBottom="365"></sprite>
+        <sprite state="DAMAGE2" xPosLeft="261" xPosRight="361" yPosTop="369" yPosBottom="469"></sprite>
+      </sprites>
+    </pig>
+
+    <pig type="PIG_HAIR">
+      <physics density="8" restitution="0.5" friction="0.2" health="350"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="507" xPosRight="627" yPosTop="155" yPosBottom="255"></sprite>
+        <sprite state="DAMAGE1" xPosLeft="140" xPosRight="260" yPosTop="601" yPosBottom="705"></sprite>
+        <sprite state="DAMAGE2" xPosLeft="138" xPosRight="258" yPosTop="154" yPosBottom="259"></sprite>
+      </sprites>
+    </pig>
+
+
+
+
+  </pigs>
+
+  <blocks src="content\Textures\INGAME_BLOCKS_2.png" imageWidth="1078" imageHeight="1001">
+
+    <block type="BLOCK_WOOD">
+      <physics density="4" restitution="0.5" friction="0.2" health="200"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="497" xPosRight="697" yPosTop="460" yPosBottom="480"></sprite>
+        <sprite state="DAMANGE1" xPosLeft="835" xPosRight="1003" yPosTop="656" yPosBottom="678"></sprite>
+        <sprite state="DAMANGE2" xPosLeft="665" xPosRight="832" yPosTop="701" yPosBottom="721"></sprite>
+      </sprites>
+    </block>
+
+    <block type="BLOCK_CONCRETE">
+      <physics density="25" restitution="0.5" friction="0.2" health="500"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="704" xPosRight="904" yPosTop="460" yPosBottom="480"></sprite>
+        <sprite state="DAMANGE1" xPosLeft="665" xPosRight="832" yPosTop="657" yPosBottom="677"></sprite>
+        <sprite state="DAMANGE2" xPosLeft="496" xPosRight="662" yPosTop="657" yPosBottom="677"></sprite>
+      </sprites>
+    </block>
+
+    <block type="BLOCK_ICE">
+      <physics density="10" restitution="0.5" friction="0.2" health="100"></physics>
+      <sprites>
+        <sprite state="IDLE" xPosLeft="911" xPosRight="1011" yPosTop="504" yPosBottom="524"></sprite>
+        <sprite state="DAMANGE1" xPosLeft="836" xPosRight="1003" yPosTop="635" yPosBottom="655"></sprite>
+        <sprite state="DAMANGE2" xPosLeft="836" xPosRight="1003" yPosTop="701" yPosBottom="721"></sprite>
+      </sprites>
+    </block>
+
+  </blocks>
+
+  <poof src="content\Textures\pig_sheet.png" imageWidth="1024" imageHeight="736">
+    <sprites>
+      <sprite state="FRAME0" xPosLeft="815" xPosRight="900" yPosTop="638" yPosBottom="723" width="85" height="85"></sprite>
+      <sprite state="FRAME1" xPosLeft="833" xPosRight="874" yPosTop="378" yPosBottom="417" width="41" height="39"></sprite>
+      <sprite state="FRAME2" xPosLeft="902" xPosRight="981" yPosTop="550" yPosBottom="623" width="79" height="73"></sprite>
+      <sprite state="FRAME3" xPosLeft="834" xPosRight="931" yPosTop="285" yPosBottom="378" width="97" height="93"></sprite>
+      <sprite state="FRAME4" xPosLeft="847" xPosRight="960" yPosTop="440" yPosBottom="551" width="113" height="111"></sprite>
+      <sprite state="FRAME5" xPosLeft="833" xPosRight="963" yPosTop="144" yPosBottom="271" width="130" height="127"></sprite>
+      <sprite state="FRAME6" xPosLeft="821" xPosRight="966" yPosTop="4" yPosBottom="143" width="145" height="139"></sprite>
+    </sprites>
+  </poof>
+
+  <birdpoof>
+    <sprites>
+      <sprite state="FRAME0" xPosLeft="730" xPosRight="810" yPosTop="243" yPosBottom="327" width="80" height="84"></sprite>
+      <sprite state="FRAME1" xPosLeft="725" xPosRight="766" yPosTop="612" yPosBottom="652" width="41" height="39"></sprite>
+      <sprite state="FRAME2" xPosLeft="911" xPosRight="990" yPosTop="502" yPosBottom="575" width="79" height="73"></sprite>
+      <sprite state="FRAME3" xPosLeft="725" xPosRight="822" yPosTop="520" yPosBottom="613" width="97" height="93"></sprite>
+      <sprite state="FRAME4" xPosLeft="858" xPosRight="971" yPosTop="390" yPosBottom="400" width="113" height="111"></sprite>
+      <sprite state="FRAME5" xPosLeft="725" xPosRight="855" yPosTop="390" yPosBottom="517" width="130" height="127"></sprite>
+      <sprite state="FRAME6" xPosLeft="820" xPosRight="965" yPosTop="250" yPosBottom="390" width="145" height="139"></sprite>
+    </sprites>
+  </birdpoof>
+
+  <playbutton src="content\Textures\Buttons.png" imgWidth="1830" imgHeight="1312" screenX="840" screenY="100">
+    <sprites>
+      <sprite uPosLeft="969" spriteWidth="240" vPosTop="33" spriteHeight="141"></sprite>
+    </sprites>
+  </playbutton>
+
+  <nextbutton src="content\Textures\Buttons.png" imgWidth="1830" imgHeight="1312" screenX="250" screenY="970">
+    <sprites>
+      <sprite uPosLeft="1692" spriteWidth="110" vPosTop="490" spriteHeight="110"></sprite>
+    </sprites>
+  </nextbutton>
+
+  <previousbutton src="content\Textures\Buttons.png" imgWidth="1830" imgHeight="1312" screenX="0" screenY="970">
+    <sprites>
+      <sprite uPosLeft="1692" spriteWidth="110" vPosTop="375" spriteHeight="110"></sprite>
+    </sprites>
+  </previousbutton>
+
+  <resetbutton src="content\Textures\Buttons.png" imgWidth="1830" imgHeight="1312" screenX="125" screenY="970">
+    <sprites>
+      <sprite uPosLeft="1692" spriteWidth="110" vPosTop="605" spriteHeight="110"></sprite>
+    </sprites>
+  </resetbutton>
+
+  <backgrounds>
+    <mainmenu src="content\Textures\Angry-Birds.jpg"></mainmenu>
+    <level src="content\Textures\Level1-background.jpg"></level>
+  </backgrounds>
+
+  <score screenX="400" screenY="0" width="67" height="84">
+    <text src="content\Textures\BirdsLeft.png" imageWidth="381" imageHeight="66"></text>
+    <font src="content\Textures\Font_Numbers.png" imageWidth="669" imageHeight="84">
+      <glyph uLeft="0" uRight="67" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="67" uRight="134" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="134" uRight="201" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="201" uRight="268" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="268" uRight="335" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="335" uRight="402" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="402" uRight="469" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="469" uRight="536" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="536" uRight="603" vTop="0" vBottom="84"></glyph>
+      <glyph uLeft="603" uRight="669" vTop="0" vBottom="84"></glyph>
+    </font>
+  </score>
+
+  <mouse src="content\Textures\CURSORS_SHEET_1.png" imageWidth="41" imageHeight="191" cursorWidth="41" cursorHeight="44">
+    <cursor uLeft="0" uRight="41" vTop="93" vBottom="138"></cursor>
+    <cursor uLeft="0" uRight="41" vTop="138" vBottom="191"></cursor>
+    <cursor uLeft="0" uRight="41" vTop="0" vBottom="53"></cursor>
+    <cursor uLeft="0" uRight="41" vTop="53" vBottom="93"></cursor>
+  </mouse>
+
+  <physics gravityX="0" gravityY="-10" updateDeltaTime="8"></physics>
+
+
+  
+
+  <level number="1">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1500" y="150" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_WOOD" x="1590" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1410" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1500" y="320" wid="200" ht="20" angle="0"></block>
+    </blocks>
+  </level>
+  
+  <level number="2">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+			<bird type="BIRD_RED" wid="44" ht="44"></bird>
+		</birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="900" y="150" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_WOOD" x="1590" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1410" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1500" y="320" wid="200" ht="20" angle="0"></block>
+      
+      <block type="BLOCK_WOOD" x="1190" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="320" wid="200" ht="20" angle="0"></block>
+
+      <block type="BLOCK_WOOD" x="990" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="810" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="900" y="320" wid="200" ht="20" angle="0"></block>
+    </blocks>
+  </level>
+
+  <level number="3">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+			<bird type="BIRD_RED" wid="44" ht="44"></bird>
+			<bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+		</birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1100" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="600" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_WOOD" x="1190" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1190" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1190" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="835" wid="200" ht="20" angle="0"></block>
+    </blocks>
+  </level>
+
+  <level number="4">
+      <birds originX="220" originY="308">
+				<bird type="BIRD_FAT" wid="84" ht="84"></bird>
+        <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+				<bird type="BIRD_RED" wid="44" ht="44"></bird>
+        <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+        <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      </birds>
+      <pigs>
+        <pig type="PIG_NORMAL" x="1100" y="150" wid="100" ht="100"></pig>
+      </pigs>
+      <blocks>
+        <block type="BLOCK_CONCRETE" x="1190" y="200" wid="200" ht="20" angle="90"></block>
+        <block type="BLOCK_CONCRETE" x="1010" y="200" wid="200" ht="20" angle="90"></block>
+        <block type="BLOCK_CONCRETE" x="1100" y="320" wid="200" ht="20" angle="0"></block>
+      </blocks>
+   </level>
+  
+  <level number="5">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1100" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="600" wid="100" ht="100"></pig>
+
+      <pig type="PIG_NORMAL" x="1500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1500" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1500" y="600" wid="100" ht="100"></pig>
+
+      <pig type="PIG_NORMAL" x="700" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="700" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="700" y="600" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_WOOD" x="1190" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1190" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1190" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1010" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1100" y="835" wid="200" ht="20" angle="0"></block>
+
+      <block type="BLOCK_WOOD" x="1590" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1410" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1500" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1590" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1410" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1500" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1590" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1410" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="1500" y="835" wid="200" ht="20" angle="0"></block>
+
+      <block type="BLOCK_WOOD" x="790" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="610" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="700" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="790" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="610" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="700" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="790" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="610" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="700" y="835" wid="200" ht="20" angle="0"></block>
+    </blocks>
+  </level>
+  
+  <level number="6">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="600" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="700" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="800" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_HAIR" x="900" y="150" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_WOOD" x="400" y="300" wid="600" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="400" y="300" wid="600" ht="20" angle="90"></block>
+    </blocks>
+  </level>
+  
+  <level number="7">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="900" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="600" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_ICE" x="1190" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1010" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1100" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1190" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1010" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1100" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1190" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1010" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1100" y="835" wid="200" ht="20" angle="0"></block>
+    </blocks>
+  </level>
+  
+  <level number="8">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_HAIR" x="1500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_HAIR" x="1500" y="400" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_ICE" x="1590" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1410" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1500" y="320" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1590" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1410" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1500" y="320" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1590" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1410" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1500" y="320" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1590" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1410" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1500" y="320" wid="200" ht="20" angle="0"></block>
+    </blocks>
+  </level>
+  
+  <level number="9">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1200" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1300" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1400" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1600" y="150" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_WOOD" x="1600" y="200" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1400" y="200" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="1200" y="200" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_CONCRETE" x="1700" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1100" y="200" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1750" y="300" wid="600" ht="20" angle="90"></block>
+    </blocks>
+  </level>
+  
+  <level number="10">
+    <birds originX="220" originY="308">
+      <bird type="BIRD_RED" wid="44" ht="44"></bird>
+      <bird type="BIRD_YELLOW" wid="44" ht="44"></bird>
+      <bird type="BIRD_BLUE" wid="33" ht="33"></bird>
+      <bird type="BIRD_BOMB" wid="64" ht="64"></bird>
+      <bird type="BIRD_FAT" wid="84" ht="84"></bird>
+    </birds>
+    <pigs>
+      <pig type="PIG_NORMAL" x="1100" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1100" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_HAIR" x="1100" y="600" wid="100" ht="100"></pig>
+
+      <pig type="PIG_NORMAL" x="1500" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="1500" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_KING" x="1500" y="600" wid="100" ht="100"></pig>
+
+      <pig type="PIG_NORMAL" x="700" y="150" wid="100" ht="100"></pig>
+      <pig type="PIG_NORMAL" x="700" y="400" wid="100" ht="100"></pig>
+      <pig type="PIG_HAIR" x="700" y="600" wid="100" ht="100"></pig>
+    </pigs>
+    <blocks>
+      <block type="BLOCK_ICE" x="1190" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1010" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1100" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1190" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1010" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1100" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_ICE" x="1190" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1010" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_ICE" x="1100" y="835" wid="200" ht="20" angle="0"></block>
+
+      
+
+      <block type="BLOCK_CONCRETE" x="1590" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1410" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1500" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_CONCRETE" x="1590" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1410" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1500" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_CONCRETE" x="1590" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1410" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1500" y="835" wid="200" ht="20" angle="0"></block>
+
+      <block type="BLOCK_CONCRETE" x="1590" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1410" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1500" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_CONCRETE" x="1590" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1410" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1500" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_CONCRETE" x="1590" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1410" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_CONCRETE" x="1500" y="835" wid="200" ht="20" angle="0"></block>
+
+      <block type="BLOCK_WOOD" x="790" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="610" y="215" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="700" y="335" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="790" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="610" y="465" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="700" y="585" wid="200" ht="20" angle="0"></block>
+      <block type="BLOCK_WOOD" x="790" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="610" y="715" wid="200" ht="20" angle="90"></block>
+      <block type="BLOCK_WOOD" x="700" y="835" wid="200" ht="20" angle="0"></block>
+
+    </blocks>
+  </level>
+  
+</angrybirds>
